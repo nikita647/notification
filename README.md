@@ -3,6 +3,10 @@
 # **POC for Slack and Email Notifications in Jenkins**
 
 
+| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
+|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
+| Nikita Joshi|  25-02-2025           | v1          | Nikita Joshi    | 25-02-2025    |  internal review | Komal jaiswal| 
+
 ## **Table of Contents**  
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
@@ -104,13 +108,62 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 ![image](https://github.com/user-attachments/assets/dc8469d4-9cc3-484e-afb8-24797e48f285)
 
 
-### **Step 4: Run a Sample Test**
+### **Step 4: Configure Email Notifications in Jenkins**
+
+**1. Install the Email Extension Plugin:**
+
+- Go to Manage Jenkins > Manage Plugins.
+
+- Search for Email Extension Plugin and install it.
+
+**2. Configure Email Settings:**
+
+- Go to Manage Jenkins > Configure System.
+
+- Scroll down to the Email Notification section.
+
+- Enter the SMTP server details (e.g., for Gmail: smtp.gmail.com, port: 465).
+
+- Check Use SMTP Authentication and enter your email credentials.
+
+- Set the default email recipient(s) for notifications.
+
+**3. Configure Email Triggers in a Job:**
+
+- Go to your Jenkins job configuration.
+
+- Under Post-build Actions, add Editable Email Notification.
+
+- Configure the email triggers (e.g., on failure, success, or always).
+
+- Customize the email content if needed.
+
+  
+### **Step 5: Run a Sample Test**
 1. Trigger a build
 
-2. Check the Slack channel you configured to ensure you receive build status notifications.
+2. Check the Slack channel and email inbox to ensure you receive build status notifications.
 
 
 
 ![image](https://github.com/user-attachments/assets/228a0393-7211-4ffb-bc0a-caa2d9318185)
 
+
+### Contact Information
+
+| **Name** | **Email address**            | **Github ID**
+|----------|-------------------------------|-------------------|
+| Nikita joshi    |   Nikita.Joshi@mygurukulam.co  | https://github.com/jnikita19  |
+
+## References
+
+| **Reference**                      | **Description**                                                                 | **Link**                                                                                   |
+|------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| **Jenkins Slack Plugin**           | Official documentation for the Jenkins Slack Notification Plugin.               | [Jenkins Slack Plugin](https://plugins.jenkins.io/slack/)                                  |
+| **Slack App Configuration Guide**  | Step-by-step guide to creating and configuring a Slack App for integration.     | [Slack App Configuration Guide](https://api.slack.com/authentication/basics)              |
+| **Slack Plugin Configuration**     | Detailed instructions to configure Slack within Jenkins.                        | [Slack Plugin Configuration](https://plugins.jenkins.io/slack/#configuration)             |
+| **Email Extension Plugin**         | Documentation for configuring email notifications in Jenkins.                   | [Email Extension Plugin](https://plugins.jenkins.io/email-ext/)                           |
+| **Post-Build Notification Setup**  | Instructions for setting up Slack and email notifications in Jenkins.           | [Post-Build Notification Setup](https://plugins.jenkins.io/slack/#project-notifications)  |
+
+---
 
