@@ -19,6 +19,7 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 **Step-by-Step Setup**
 
 1. **Get a Slack API Token**
+   
 ![image](https://github.com/user-attachments/assets/3ab51982-f91f-41a9-aa26-22851b760380)
 ![image](https://github.com/user-attachments/assets/c06ad9e3-fcc9-4784-ad0c-be947e4685e2)
 
