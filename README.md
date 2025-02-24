@@ -47,4 +47,5 @@ jenkins server
 ![image](https://github.com/user-attachments/assets/8a4ad68c-83d9-4f36-8601-eea94b6a41e6)
 
 
+![image](https://github.com/user-attachments/assets/dc8469d4-9cc3-484e-afb8-24797e48f285)
 
