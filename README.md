@@ -32,4 +32,19 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 
 
 
-3. 
+jenkins server
+
+![image](https://github.com/user-attachments/assets/e0f5a5ba-6df2-4fa1-9f60-4251132ff2bb)
+
+![image](https://github.com/user-attachments/assets/a963c765-916e-47b3-abd8-0efb6054aa34)
+
+![image](https://github.com/user-attachments/assets/739cfba5-5b1d-4573-b6ce-49d5fdfc8906)
+
+![image](https://github.com/user-attachments/assets/58babd05-dc51-46de-83fd-cf49aca62db7)
+
+![image](https://github.com/user-attachments/assets/282bed9d-b2da-4c93-829c-d5338102f77c)
+
+![image](https://github.com/user-attachments/assets/8a4ad68c-83d9-4f36-8601-eea94b6a41e6)
+
+
+
