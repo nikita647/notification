@@ -63,4 +63,5 @@ sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.0
 
 ![image](https://github.com/user-attachments/assets/5e66bd05-e062-4cad-a54c-6a4b1c12e731)
 
+![image](https://github.com/user-attachments/assets/31bfee29-a71b-42d7-bd2c-8ced47bf9992)
 
