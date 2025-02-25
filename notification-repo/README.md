@@ -1,10 +1,12 @@
 
 
-# Jenkins Integration with Slack and Email Notifications
+# **Jenkins Integration with Slack and Email Notifications**
 
+| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
+|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
+| Nikita Joshi|  25-02-2025           | v1         | Nikita Joshi    |25-02-2025    |  internal review | komal jaiswal | 
 
-
-## Table of Contents
+## **Table of Contents**
 
 - [Introduction](#introduction)
 - [What is Slack and Email Integration?](#what-is-slack-and-email-integration)
@@ -20,20 +22,20 @@
 
 ---
 
-## Introduction
+## **Introduction**
 
 Integrating Jenkins with **Slack** and **Email** ensures that your team receives real-time notifications about build statuses, failures, and other important events. This guide explains how to set up both integrations and highlights their benefits.
 
 ---
 
-## What is Slack and Email Integration?
+## **What is Slack and Email Integration?**
 
 - **Slack Integration**: Sends real-time notifications to Slack channels, keeping the team updated on Jenkins build statuses.
 - **Email Integration**: Sends email notifications to specified recipients, ensuring critical updates are delivered directly to inboxes.
 
 ---
 
-## Why Integrate Jenkins with Slack and Email?
+## **Why Integrate Jenkins with Slack and Email?**
 
 Integrating Jenkins with Slack and Email provides the following benefits:
 
@@ -48,9 +50,8 @@ Integrating Jenkins with Slack and Email provides the following benefits:
 
 ---
 
-## Advantages of Slack and Email Notifications
+## **Advantages of Slack and Email Notifications**
 
-Here are the key advantages of using Slack and Email notifications for Jenkins:
 
 | **Advantage**              | **Description**                                                                 |
 |----------------------------|---------------------------------------------------------------------------------|
@@ -61,6 +62,9 @@ Here are the key advantages of using Slack and Email notifications for Jenkins:
 | **Customizable Alerts**     | Tailor notifications to include relevant details for your team.                 |
 
 ---
+## **Installation and Setup Guide**
+- For detailed steps on installing and setting up Slack and Email integration in Jenkins, please refer to the following link: []
+
 
 
 ## Best Practices
@@ -70,9 +74,7 @@ Here are the key advantages of using Slack and Email notifications for Jenkins:
 | **Custom Notifications**         | Customize notifications to include relevant details like build status, commit messages, and responsible developers. |
 | **Use Dedicated Channels**       | Create separate Slack channels for different projects or teams to keep notifications organized.    |
 | **Avoid Notification Overload**  | Limit notifications to critical events (e.g., build failures) to avoid spamming channels or inboxes. |
-| **Secure API Tokens and SMTP Credentials** | Keep Slack API tokens and SMTP credentials secure using Jenkins’ credential management. |
 | **Test Notifications**           | Test both Slack and Email integrations to ensure notifications are working as expected.            |
-| **Use Emojis and Formatting**    | Make Slack notifications more readable by using emojis (e.g., ✅ for success, ❌ for failure) and formatting. |
 | **Monitor Rate Limits**          | Be aware of Slack’s rate limits and avoid sending too many notifications in a short time.         |
 | **Provide Clear Instructions**   | Document the integration process and provide clear instructions for team members to follow.        |
 
@@ -85,7 +87,7 @@ Integrating Jenkins with **Slack** and **Email** ensures your team stays informe
 ---
 
 
-# Contact Information
+## **Contact Information**
 
 | **Name** | **Email address**            | **Github ID**
 |----------|-------------------------------|-------------------|
@@ -94,7 +96,7 @@ Integrating Jenkins with **Slack** and **Email** ensures your team stays informe
 
 ---
 
-## References
+## **References**
 
 | **Reference**                      | **Description**                                                                 | **Link**                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
