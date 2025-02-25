@@ -14,8 +14,10 @@
    - [Step 1: Create a Slack Account](#step-1-create-a-slack-account)  
    - [Step 2: Install Jenkins CI App on Slack](#step-2-install-jenkins-ci-app-on-slack)  
    - [Step 3: Install Slack Plugin in Jenkins](#step-3-install-slack-plugin-in-jenkins)  
-   
-   - [Step 4: Run a Sample Test](#step-4-run-a-sample-test)  
+   - [Step 4: Configure Email Notifications in Jenkins](#step-4-configure-email-notifications-in-jenkins)
+   - [Step 5: Run a Sample Test](#step-4-run-a-sample-test) 
+4.  [Contact Information](#contact-information)
+5. [References](#references)
 
 
 
@@ -23,6 +25,7 @@
 
 This guide explains how to set up Slack notifications in Jenkins. By integrating Slack with Jenkins, you can receive real-time updates about your builds, making it easier for your team to stay informed and act quickly.
 
+___
 
 ## **Prerequisites**
 
@@ -30,6 +33,8 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 - **Jenkins Server:** A Jenkins server up and running.
 - **Slack Plugin:** The Slack Notification Plugin must be installed in Jenkins.
 
+
+___ 
 
 ## **Step-by-Step Setup**
 
@@ -43,6 +48,8 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
    
 ![image](https://github.com/user-attachments/assets/3ab51982-f91f-41a9-aa26-22851b760380)
 
+___
+
 ### **Step 2: Install Jenkins CI App on Slack**
 
 1. Open Slack and go to Settings & Administration > Manage Apps.
@@ -51,7 +58,6 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 
 3. Choose a Slack channel for Jenkins notifications.
    
-![image](https://github.com/user-attachments/assets/c06ad9e3-fcc9-4784-ad0c-be947e4685e2)
 
 ![image](https://github.com/user-attachments/assets/629764cc-d288-4692-a2ba-4888b9688ae3)
 
@@ -68,6 +74,7 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 ![image](https://github.com/user-attachments/assets/e94237ff-a9b1-40dd-9559-1f8db21203a6)
 
 
+___
 
 ### **Step 3. Install Slack Plugin in Jenkins**
 
@@ -107,6 +114,7 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 
 ![image](https://github.com/user-attachments/assets/dc8469d4-9cc3-484e-afb8-24797e48f285)
 
+___
 
 ### **Step 4: Configure Email Notifications in Jenkins**
 
@@ -127,6 +135,8 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 - Check Use SMTP Authentication and enter your email credentials.
 
 - Set the default email recipient(s) for notifications.
+  ![image](https://github.com/user-attachments/assets/84170df8-747f-4940-b41a-9fee2485e0bc)
+
 
 **3. Configure Email Triggers in a Job:**
 
@@ -136,26 +146,37 @@ This guide explains how to set up Slack notifications in Jenkins. By integrating
 
 - Configure the email triggers (e.g., on failure, success, or always).
 
+  ![image](https://github.com/user-attachments/assets/577951b8-6495-43ac-b6a8-21b7f954cf58)
+
+
 - Customize the email content if needed.
 
+___
   
 ### **Step 5: Run a Sample Test**
+
 1. Trigger a build
 
 2. Check the Slack channel and email inbox to ensure you receive build status notifications.
 
+![image](https://github.com/user-attachments/assets/cd032381-4328-4278-baf1-a4f65f5f3c9b)
+
+___
 
 
 ![image](https://github.com/user-attachments/assets/228a0393-7211-4ffb-bc0a-caa2d9318185)
 
 
-### Contact Information
+___
+## **Contact Information**
 
 | **Name** | **Email address**            | **Github ID**
 |----------|-------------------------------|-------------------|
 | Nikita joshi    |   Nikita.Joshi@mygurukulam.co  | https://github.com/jnikita19  |
 
-## References
+___
+
+## **References**
 
 | **Reference**                      | **Description**                                                                 | **Link**                                                                                   |
 |------------------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
