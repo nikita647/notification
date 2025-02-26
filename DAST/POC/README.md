@@ -26,15 +26,15 @@ Dynamic Application Security Testing (DAST) involves evaluating a live applicati
 
 # Step-by-Step Setup Guide
 
-**Step 1**: Update Your Linux System
+**Step 1**: **Update Your Linux System**
 
-Before installing OWASP ZAP, it's essential to update your system to ensure that you have the latest packages and security patches. To update your system, open the terminal and type the following command:
+- Before installing OWASP ZAP, it's essential to update your system to ensure that you have the latest packages and security patches. To update your system, open the terminal and type the following command:
 ``` bash
 sudo apt update
 ```
 **Step 2**: Install OWASP ZAP
 
-Once your system is up to date, you can install OWASP ZAP. To do so, type the following command in the terminal:
+- Once your system is up to date, you can install OWASP ZAP. To do so, type the following command in the terminal:
 ``` bash
 sudo snap install zaproxy --classic
 ````
