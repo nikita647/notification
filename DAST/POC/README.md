@@ -52,30 +52,38 @@ zaproxy
 - You can now start using OWASP ZAP to test the security of your web applications.After a few minutes, OWASP ZAP will open up.
 
 
-**Ensure that your application or api should be running before using this service.**
+### **Ensure that your application or api should be running before using this service.**
 ![image](https://github.com/user-attachments/assets/2a787b5e-b147-4ffc-9d63-8195abc3a94e)
 
 
 
 
-### **Step 4: Click on the **Automated scan** option a interface will come out on which provide the URL of the application and click on **attack****
 
+### Step 4: Perform an Automated Scan
+
+- Click on the Automated Scan option.
+- Provide the URL of the application in the respective field.
+- Click on Attack to start the scanning process.
+- OWASP ZAP will now begin scanning your application for vulnerabilities.
 
 ![WhatsApp Image 2025-02-26 at 18 15 27_6453a764](https://github.com/user-attachments/assets/db51b160-3e15-4e1e-86cc-6d61c3672536)
 
-OWASP ZAP will start  scanning  your application for  vulnerabilities .
-
+### **Step 5: Analyze Results**
+- Once the scan is complete, navigate to the Alerts tab.
+- The identified vulnerabilities will be listed.
+- Click on each alert to view details about the security issue.
+![image](https://github.com/user-attachments/assets/e2ff9385-1d28-4de2-bb56-073ed98cb872)
 
 
  ### **Step 5 : Report Generation:** 
 
-You can also Generate the Report of the analysis by click on the **Report** option and generate it in desired format (HTML, PDF,JSON etc.) for future References. 
-
+- Click on the Report option.
+- Select the desired format (HTML, PDF, JSON, etc.).
+- Click on Generate Report to save it to the desired directory.
 
 ![WhatsApp Image 2025-02-26 at 18 17 27_1c933a21](https://github.com/user-attachments/assets/8343d0e7-7ee8-4fae-91ff-6b3ec3a347b3)
 
-After selecting the format,click on **Generate Report**. Your Report will be generated in your desired directory. 
-![WhatsApp Image 2025-02-26 at 18 18 00_7175835e](https://github.com/user-attachments/assets/c08cb221-e066-48d9-9fd7-1b90898dbe91)
+
 
 ### **Step 6: Report**
 | **Link** | **Description** |
